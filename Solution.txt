@@ -1,5 +1,18 @@
+What is JDBC:
+JDBC (Java Database Connectivity) is a Java API that provides a standard set of APIs for accessing databases. 
+It allows Java applications to connect to a wide range of databases and execute SQL statements, and process the results.
 
-Write a JDBC program to display all records from a table / Write a JDBC program to show use of result set//
+There are four types of JDBC drivers:
+
+Type 1 JDBC Driver (JDBC-ODBC Bridge Driver): This driver uses the ODBC driver to connect to the database. It is the simplest and oldest type of JDBC driver and provides the least performance.
+Type 2 JDBC Driver (Native-API/Partly Java Driver): This driver translates JDBC calls into native calls to the database API. It is faster than the Type 1 driver, but it is specific to the underlying database and can be platform-dependent.
+Type 3 JDBC Driver (Network Protocol Driver): This driver communicates with the database through a network protocol, typically a database-independent middleware. It provides better performance than the Type 1 and Type 2 drivers.
+Type 4 JDBC Driver (Pure Java Driver): This driver is implemented entirely in Java and communicates directly with the database. It provides the best performance and is the preferred driver for accessing databases from Java applications.
+
+
+
+1)Write a JDBC program to display all records from a table / Write a JDBC program to show use of result set//
+Write a program to show the use of JDBC.
 
 import java.sql.*;
 
