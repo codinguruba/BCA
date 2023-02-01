@@ -79,3 +79,15 @@ public class Palindrome {
     
 }
 
+What are access modifiers in JAVA with example
+Access modifiers in Java are keywords used to control the access to the members of a class. The access level can be set for instance variables, methods, and constructors, and it determines whether these members can be accessed from other parts of the program.
+
+There are four types of access modifiers in Java:
+
+Public: Members declared as public can be accessed from anywhere in the program.
+Private: Members declared as private can only be accessed within the same class. They cannot be accessed from outside the class.
+Protected: Members declared as protected can be accessed within the same class and its subclasses. They cannot be accessed from outside the package.
+Default (also known as package-private): Members declared without an access modifier have default access. They can only be accessed within the same package.
+
+The access level can be used to hide the implementation details of a class and to restrict access to its members.
+By using access modifiers, you can encapsulate the data and behavior of a class and create a stable and robust interface for using the class.
